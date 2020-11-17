@@ -86,8 +86,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;  
-    padding: 30px;
-    
+    padding: 100px;  
 }
 .about-page {
     display: flex;
@@ -348,6 +347,12 @@ img.zoom {
     
 }
 @media (max-width: 987px){
+    .home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 60px;  
+}
     .div-card-home { 
         overflow: auto;
         margin-top: 250px;    
@@ -361,6 +366,12 @@ img.zoom {
      
 }
 @media (max-width:690px){ 
+    .home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 30px;  
+}
     .logo {
         color: blanchedalmond;
         font-weight: bolder;
