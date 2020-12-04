@@ -13,7 +13,7 @@ body{
   max-width: 100%;
 }
 header{
-    background-image: url(/img/forest.jpg);
+    background-image: url(/img/bp.jpg);
     background-size: cover;   
     min-height: 100vh;
 }
@@ -70,12 +70,7 @@ nav li a{
 
 nav a:hover {
     opacity: 0.8;
-} 
-.about-page {
-    background-image: url(/img/bp.jpg);
-    background-size: cover;
-    min-height: 100vh; 
-}
+}  
 
 .contact-page{
     background-image: url(/img/bp.jpg);
@@ -89,6 +84,9 @@ nav a:hover {
     padding: 100px; 
 }
 .about-page {
+    background-image: url(/img/bp.jpg);
+    background-size: cover;
+    min-height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -120,7 +118,7 @@ nav a:hover {
     opacity: 0.9;
     border-radius: 20px;
     box-shadow: 0px 10px 10px 5px black;
-    width: 1200px; 
+    width: 100%; 
 }
 .div-card-services {
     overflow: auto;
@@ -131,7 +129,7 @@ nav a:hover {
     opacity: 0.9;
     border-radius: 20px;
     box-shadow: 0px 10px 10px 5px black;
-    width: 1200px; 
+    width: 100%; 
 }
 
 .card-img { 
@@ -218,16 +216,16 @@ h1{
     .nav-links{
         position: absolute;
         right:0px;
-        height: 70vh; 
+        height: 50vh; 
         top:11vh;
         display:flex;
         background-color: rgb(19, 22, 19);   
         flex-direction: column;
         align-items: center;
-        width: 60%;
-        transform: translateX(100%); 
-       
-    }    
+        opacity: 0.9;
+        width: 70%;
+        transform: translateX(100%);  
+    }  
     .nav-links li{
          opacity: 0;
     }
@@ -283,18 +281,7 @@ h1{
               margin-top:85px;
           }
   
-     
-img.zoom {
-      width: 100%;
-      height: 200px;
-      border-radius:5px;
-      object-fit:cover;
-      -webkit-transition: all .3s ease-in-out;
-      -moz-transition: all .3s ease-in-out;
-      -o-transition: all .3s ease-in-out;
-      -ms-transition: all .3s ease-in-out;
-  }
-          
+       
    
   .transition {
       -webkit-transform: scale(1.2); 
@@ -397,8 +384,11 @@ img.zoom {
         color:blanchedalmond;
     }
 }
-@media (max-width: 500px){
-    
+@media (max-width: 500px){ 
+    .nav-links a{
+        margin: 10px;
+        padding: 10px;
+    } 
 }
   
 
